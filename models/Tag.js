@@ -4,8 +4,11 @@ const sequelize = require('../config/connection.js');
 
 class Tag extends Model {}
 
-Tag.init(
-  {
+Tag.init({
+  tag_name: {
+    type: DataTypes.STRING,
+    allowNull: false
+  }
     // define columns
   },
   {
