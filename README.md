@@ -27,6 +27,8 @@ To install this application, clone the github repository from [this link](https:
 ## Usage
 Using this application allows you to add, remove and edit products, categories and tags to manage your store.
 
+<img width="1442" alt="Screen Shot 2023-02-14 at 2 12 38 PM" src="https://user-images.githubusercontent.com/116322906/218877636-4cefcd49-8f82-48d9-9664-2ef00ebad505.png">
+
 ## Credits
 Me
 
