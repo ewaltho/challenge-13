@@ -44,7 +44,7 @@ router.get('/:id', (req, res) => {
 
 router.post('/', (req, res) => {
   Category.create({
-    tag_name: req.body.tag_name
+    category_name: req.body.category_name
   }).then(data=>{
     res.status(201).json(data)
   }).catch(err=>{
@@ -59,7 +59,7 @@ router.post('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
   Category.update({
-    tag_name: req.body.tag_name
+    category_name: req.body.category_name
   },{
     where:{
       id:req.params.id
